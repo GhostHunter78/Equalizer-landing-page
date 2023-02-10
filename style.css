@@ -9,6 +9,18 @@
   overflow-x: hidden;
 }
 
+.yellow {
+  display: none;
+}
+
+.blue {
+  display: none;
+}
+
+.orange {
+  display: none;
+}
+
 .tablet-img {
   display: none;
 }
@@ -69,6 +81,7 @@
   border-radius: 12px;
   width: 100%;
   margin-top: 166px;
+  margin-left: 24px;
 }
 
 .back-image {
@@ -241,6 +254,18 @@ span {
 }
 
 @media (min-width: 768px) {
+  .yellow {
+    display: none;
+  }
+
+  .blue {
+    display: none;
+  }
+
+  .orange {
+    display: none;
+  }
+
   .top-img-color {
     display: inline-block;
     top: -25%;
