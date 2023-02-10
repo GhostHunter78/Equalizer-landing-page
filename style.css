@@ -232,7 +232,8 @@
 }
 
 .icon:hover {
-  filter: invert(1);
+  filter: invert(62%) sepia(74%) saturate(3298%) hue-rotate(329deg)
+    brightness(107%) contrast(96%);
 }
 
 span {
