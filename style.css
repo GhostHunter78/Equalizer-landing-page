@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#main {
+    
+}
+
+.tablet-img {
+    display: none;
+}
+
+.top-img1 {
+    display: none;
+}
+
+.top-img-color {
+    display: inline-block;
+    position: absolute;
+    top: -15%;
+    left: 30%;
+    width: 120%;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-left: 24px;
+}
+
+.heading1 {
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    width: 327px;
+    height: 144px;
+    margin-left: 24px;
+    margin-top: 64px;
+    color: #191826;
+}
+
+.paragraph {
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    width: 327px;
+    height: 156px;
+    margin-left: 24px;
+    margin-top: 20px;
+}
+
+.main-image {
+    position: absolute;
+    width: 220px;
+    height: 470px;
+    top: -20%;
+    left: 23%;
+    z-index: 5;
+}
+
+.middle-back {
+    position: relative;
+    background-color: #191826;
+    border-radius: 12px;
+    width: 100%;
+    margin-top: 166px;
+}
+
+.back-image {
+    display: block;
+    z-index: 1;
+    margin: 0 48px;
+}
+
+.orange-div {
+    position: absolute;
+    background: #FA7453;
+    border-radius: 12px;
+    width: 375px;
+    height: 550px;
+    width: 100%;
+    top: 90%;
+}
+
+.heading2 {
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FCFAF9;
+    width: 302px;
+    height: 40px;
+    margin-left: 36px;
+    margin-top: 48px;
+}
+
+.paragraph2 {
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFAF9;
+    width: 302px;
+    height: 140px;
+    margin-top: 12px;
+    margin-left: 36px;
+}
+
+.payment {
+    display: flex;
+    align-items: center;
+}
+
+.prise {
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: #FCFAF9;
+    margin-top: 36px;
+    margin-left: 42px;
+}
+
+.per-month {
+    color: #FCFAF9;
+    height: 32px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 45px;
+    margin-left: 16px;
+}
+
+.ios {
+    background: #191826;
+    border-radius: 12px;
+    width: 296px;
+    height: 61px;
+    margin-top: 32px;
+    margin-left: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.ios-icon {
+    margin-left: 77px;
+}
+
+.download1 {
+    color: #FCFAF9;
+    height: 32px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    margin-left: 8px;
+}
+
+.android {
+    background: white;
+    border-radius: 12px;
+    width: 296px;
+    height: 61px;
+    margin-top: 16px;
+    margin-left: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.android-icon {
+    margin-left: 61px;
+}
+
+.download2 {
+    color: #191826;
+    height: 32px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    margin-left: 8px;
+}
+
+.bottom-logo {
+    margin-top: 550px;
+    margin-left: 26px;
+}
+
+.bottom-p {
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    width: 302px;
+    height: 125px;
+    margin-left: 26px;
+    margin-top: 32px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 26px;
+    margin-top: 64px;
+    margin-bottom: 80px;
+}
+
+span { 
+    font-weight: bold !important;
+}
+
+@media (min-width: 768px){
+    .top-img-color {
+        display: inline-block;
+        top: -25%;
+        left: 20%;
+    }
+
+    .tablet-img {
+        display: inline-block;
+        position: absolute;
+        top: -30%;
+        left: -30%;
+    }
+
+    .top-img1 {
+        display: inline-block;
+        z-index: 1;
+        position: absolute;
+        left: 70%;
+        top: -2%;
+        width: 35%;
+    }
+
+    .heading1 {
+        font-size: 64px;
+        width: 520px;
+        line-height: 64px;
+    }
+
+    .paragraph {
+        width: 465px;
+        Line-height: 28px;
+        font-size: 18px;
+        height: 112px;
+        margin-top: 78px;
+    }
+
+    .main-image {
+        left: 10%;
+    }
+
+    .middle-back {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 270px;
+        width: 696px;
+        height: 600px;
+    }
+
+    .back-image {
+        position: absolute;
+        width: 35%;
+        top: -5%;
+        left: 22%;
+    }
+
+    .orange-div {
+        width: 399px;
+        height: 546px;
+        margin-left: 220px;
+        margin-top: -420px;
+        z-index: 10;
+    }
+    
+    .bottom-logo {
+        margin-left: 33px;
+        margin-top: 170px;
+    }
+
+    .bottom-p {
+        margin-left: 33px;
+        width: 330px;
+    }
+
+    .icons-and-p  {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .icons {
+        margin-right: 39px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .top-img-color {
+        display: inline-block;
+        left: 40%;
+        width: 80%;
+        top: 60%;
+    }
+
+    .tablet-img {
+        display: inline-block;
+        left: -20%;
+        top: -60%;
+        width: 130%;
+    }
+
+    .top-img1 {
+        display: inline-block;
+        left: 80.2%;
+        top: -6%;
+        width: 20%;
+    }
+
+    .logo {
+        margin-left: 165px;
+        margin-top: 62px;
+    }
+
+    .heading1 {
+        margin-left: 165px;
+        width: 1015px;
+        height: 176px;
+        margin-top: 127px;
+        font-size: 88px;
+        line-height: 88px;
+    }
+
+    .paragraph {
+        margin-left: 165px;
+        margin-top: 40px;
+        width: 825px;
+        height: 102px;
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .middle-back {
+        width: 1110px;
+        height: 600px;
+        margin-top: 321px;
+        margin-left: 165px;
+    }
+
+    
+}
